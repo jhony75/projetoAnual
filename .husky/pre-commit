@@ -1,0 +1,54 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+bold=$(tput bold)
+underline=$(tput smul)
+italic=$(tput sitm)
+info=$(tput setaf 2)
+error=$(tput setaf 160)
+warn=$(tput setaf 214)
+reset=$(tput sgr0)
+
+
+# echo "${error}ERROR${reset}: This is an ${underline}error${reset} message"
+
+# Check Prettier
+echo "${info}Testing Style${reset}."
+yarn check-format || 
+(
+  echo "${error}ERROR:${reset} Prettier check failed."
+  echo "Run ${italic}yarn format${reset} add changes and try to commit again."
+  false;
+)
+
+# Check ESLint
+echo "${info}Testing Lint${reset}."
+yarn check-lint || 
+(
+  echo "${error}ERROR:${reset} ESLint check failed."
+  echo "Make the changes listed above, add changes and try again."
+  false;
+)
+
+# Check Tsconfig
+echo "${info}Testing Typing${reset}."
+yarn check-types || 
+(
+  echo "${error}ERROR:${reset} Type check failed."
+  echo "Make the changes listed above, add changes and try again."
+  false;
+)
+
+# If all checks passess, build
+echo "${info}Trying to build${reset}."
+
+yarn build || 
+(
+  echo "${error}Build Failed${reset}!"
+  echo "Next build failed: View the errors above to see why."
+  false;
+)
+
+# Now commit
+
+echo "${info}Commiting now. Everything passed.${reset}."
