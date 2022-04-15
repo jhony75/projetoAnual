@@ -1,5 +1,5 @@
 import { VStack, Box, Text, Center } from '@chakra-ui/react';
-import doctorsList from '../static/doctors.json';
+import doctorsList from '../public/doctors.json';
 
 export default function Doctors() {
   return (
