@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "André da Silva Sauro",
+    "address": "Avenida Celso Garcia, 48 - Tatuapé - São Paulo",
+    "telephone": "(11) 3769-0084"
+  },
+  {
+    "id": 2,
+    "name": "Andressa Cardoso Alves",
+    "address": "Rua Cezar Zama, 300 - Santana - São Paulo",
+    "telephone": "(11) 3384-6184"
+  },
+  {
+    "id": 3,
+    "name": "Pietro Gomes Novaes",
+    "address": "Av. Nova Cantareira, 507 - Tucuruvi - São Paulo",
+    "telephone": "(11) 2204-4367"
+  }
+]
