@@ -4,3 +4,5 @@ package-lock.json
 public
 dist
 .next
+commitlint.config.js
+next.config.js

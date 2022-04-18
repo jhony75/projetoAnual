@@ -1,5 +1,5 @@
 import { HStack, Box, Text, Center, Badge, Image } from '@chakra-ui/react';
-import schoolList from '../static/schools.json';
+import schoolList from '../public/schools.json';
 
 export default function Schools() {
   return (
