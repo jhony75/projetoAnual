@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Tatutea",
+    "address": "Rua São Bernardo, 758 - Tatuapé - São Paulo",
+    "telephone": "(11) 3769-0084",
+    "site": "https://www.tatutea.com.br/",
+    "image": "https://scontent-gru2-1.xx.fbcdn.net/v/t39.30808-6/269895877_432207625058690_4221892732321932237_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TvmyyNnr8yUAX_ZGH7C&_nc_ht=scontent-gru2-1.xx&oh=00_AT_ZeZH2uE9OzHU32HYmPOsiYc7q4xwJ6u6oI3R9xmkRYQ&oe=625CEB4E"
+  },
+  {
+    "id": 2,
+    "name": "Associação dos Amigos Criança Autista - AUMA",
+    "address": "Rua Cezar Zama, 257 - Santana - São Paulo",
+    "telephone": "(11) 3384-6184",
+    "site": "https://auma.org.br/",
+    "image": "https://scontent-gru1-1.xx.fbcdn.net/v/t1.6435-9/155563171_3184955178274372_6827135433710339715_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=16-mYkUyysQAX_Ci1Qy&_nc_ht=scontent-gru1-1.xx&oh=00_AT_hDsVe6GMsyHUYxIGRG9kd2qEHBEFsEG7tGjc6Bk5yrg&oe=627FFF9D"
+  }
+]
